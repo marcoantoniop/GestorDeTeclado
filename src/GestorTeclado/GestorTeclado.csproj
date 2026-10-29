@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <!-- .NET 10 LTS. Soporte publicado hasta octubre/noviembre de 2028. -->
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>GestorTeclado</RootNamespace>
+    <AssemblyName>GestorTeclado</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <InvariantGlobalization>false</InvariantGlobalization>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <!-- Permite compilar el proyecto también en Linux/CI para verificación;
+         la ejecución real del motor low-level requiere Windows. -->
+  </PropertyGroup>
+
+</Project>
